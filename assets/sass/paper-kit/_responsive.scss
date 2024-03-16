@@ -1,6 +1,6 @@
 /*          Changes for small display      */
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
     .navbar, .navbar-transparent{
         background-color: rgba(0, 0, 0, 0.45);
     }
@@ -360,8 +360,15 @@
         transform: none;
         left: 0;
     }
+    .block-s {
+        width: 22% !important;
+    }
+    .block-l {
+        width: 28% !important;
+    }
 }
-@media screen and (max-width: 991px){
+
+@media screen and (max-width: 991px) {
     .navbar-collapse {
         display: block;
         position: fixed;
@@ -503,9 +510,31 @@
        left: 0;
        background-color: white;
     }
+    .modal {
+        width: 700px !important;
+    }
+    .fake-block {
+        display: none !important;
+    }
+    .block-content {
+        width: 90% !important;
+        margin: 0 auto;
+    }
+    .block-s {
+        width: 22% !important;
+    }
+    .block-l {
+        width: 28% !important;
+    }
+    .countdown-value {
+        font-size: 2em !important;
+    }
+    .countdown-label {
+        font-weight: normal !important;
+    }
 }
 
-@media screen and (min-width:767px){
+@media screen and (min-width:767px) {
     .section-sections{
         .section-cols{
             position: relative;
@@ -536,9 +565,18 @@
 
         }
     }
+    .col-md-2 {
+        width: 33.33333333% !important;
+    }
+    .block-s {
+        width: 22% !important;
+    }
+    .block-l {
+        width: 28% !important;
+    }
 }
 
-@media screen and (min-width:991px){
+@media screen and (min-width:991px) {
     .burger-menu{
         .navbar-collapse {
             position: fixed;
@@ -693,8 +731,25 @@
            }
         }
     }
+    .block-s, .block-l {
+        width: 25% !important;
+    }
+    .countdown-value {
+        font-size: 3em !important;
+    }
+    .countdown-label {
+        font-weight: bold !important;
+    }
+    .fake-block {
+        display: none !important;
+    }
+    .block-content {
+        width: 60% !important;
+        margin: 0 auto!important;
+    }
 }
-@media screen and (max-width: 1025px){
+
+@media screen and (max-width: 1025px) {
     .input-group{
         .input-group-addon{
             padding-right: 10px;
