@@ -511,7 +511,7 @@
        background-color: white;
     }
     .modal {
-        width: 700px !important;
+        width: 95% !important;
     }
     .fake-block {
         display: none !important;
@@ -754,5 +754,9 @@
         .input-group-addon{
             padding-right: 10px;
         }
+    }
+    .notification {
+        width: 100% !important;
+        height: max-content;
     }
 }
