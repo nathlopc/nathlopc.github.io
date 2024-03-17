@@ -757,6 +757,7 @@
     }
     .notification {
         width: 100% !important;
-        height: max-content;
+        height: max-content !important;
+        left: -50% !important;
     }
 }
